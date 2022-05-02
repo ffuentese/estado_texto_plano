@@ -146,7 +146,7 @@ params:
     - name: Servidor principal
       description: El tilde mismo, está localizado en el centro de datos de Vultr en Miami
       closed: false
-    - name: Servidor Santiago 
+    - name: Servidor Santiago
       description: (Oracle en Santiago de Chile)
     - name: Uncategorized
       untitled: true
@@ -301,7 +301,7 @@ params:
   #
   # Recommended: png, bmp, jpg, or gif
   # for best browser support!
-  logo: logo.png
+  logo: profile.png
 
   # This is the description that is shown
   # on the footer and meta tags.
