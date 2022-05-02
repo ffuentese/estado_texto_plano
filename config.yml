@@ -1,6 +1,6 @@
 title: Estado operacional de Texto-Plano
 buildFuture: true
-defaultContentLanguage: es
+defaultContentLanguage: en
 languageCode: es
 baseURL: https://estado.texto-plano.xyz
 theme: cstate
