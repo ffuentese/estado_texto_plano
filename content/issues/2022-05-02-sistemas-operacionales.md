@@ -4,7 +4,7 @@ title: Sistemas operacionales
 date: 2022-05-02T16:32:42.227Z
 resolved: true
 draft: false
-informational: true
+informational: false
 pin: true
 resolvedWhen: 2022-05-02T16:32:42.253Z
 affected:
