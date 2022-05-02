@@ -39,7 +39,7 @@ params:
   systems:
     - name: SSH
       category: Servidor principal
-      partial: Operational
+      partial: ""
     - name: BBJ
       category: Servidor principal
     - name: Web
