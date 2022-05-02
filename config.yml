@@ -171,7 +171,6 @@ params:
       description: La wiki de Texto-Plano
       category: Servidor principal
     - name: Gemini (gmid)
-      description: The guts of the application.
       category: Servidor principal
     - name: Gophernicus
       # description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
@@ -308,7 +307,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+  description: Monitoreamos continuamente el estado de los servicios del tilde y si hubiera cualquier problema se publicará una nota aquí.
 
   # Tabs on homepage
   # Uncomment to enable.
