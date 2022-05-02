@@ -170,6 +170,7 @@ params:
     - name: Wiki
       description: La wiki de Texto-Plano
       category: Servidor principal
+      link: https://wiki.texto-plano.xyz/
     - name: Gemini (gmid)
       category: Servidor principal
     - name: Gophernicus
@@ -177,9 +178,11 @@ params:
       category: Servidor principal
     - name: Radio (icecast)
       category: Servidor principal
+      link: http://texto-plano.xyz:8000/
     - name: Pleroma
       description: Red social con Activity Pub
       category: Servidor Santiago
+      link: https://soc.texto-plano.xyz/
     - name: Mumble CL
       category: Servidor Santiago
     - name: Mumble tilde
