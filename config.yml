@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: Estado operacional de Texto-Plano
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -64,7 +64,7 @@ buildFuture: true
 #
 # See:  https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 # Also: https://www.w3schools.com/tags/ref_language_codes.asp
-languageCode: en
+languageCode: es
 
 # What translation file should cState use?
 # You can also define whether missing
@@ -78,7 +78,7 @@ languageCode: en
 # than English! When tested with Lithuanian,
 # it would add unnecesary placeholders to
 # values that were intentionally empty.
-defaultContentLanguage: en
+defaultContentLanguage: es
 
 # What is the hostname or path to the root?
 # Where is the site hosted?
@@ -97,7 +97,7 @@ defaultContentLanguage: en
 #
 # Broken example:
 # baseUrl: /
-baseURL: https://example.com
+baseURL: https://estado.texto-plano.xyz
 
 # For features like Last modified, you
 # need to use a Git repository. If you
@@ -143,10 +143,11 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: Empty Category
+    - name: Servidor principal
+      description: El tilde mismo, está localizado en el centro de datos de Vultr en Miami
+      closed: false
+    - name: Servidor Santiago 
+      description: (Oracle en Santiago de Chile)
     - name: Uncategorized
       untitled: true
 
@@ -158,20 +159,35 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
-    - name: Website
-      description: The web frontend for the application.
-      category: Uncategorized
-      link: https://example.com/
-    - name: API
+    - name: SSH
+      category: Servidor principal
+    - name: BBJ
+      category: Servidor principal
+    - name: Web
+      description: Servidor nginx con a web principal más otras como la del podcast y las de los usuarios están aquí.
+      category: Servidor principal
+      link: https://texto-plano.xyz/
+    - name: Wiki
+      description: La wiki de Texto-Plano
+      category: Servidor principal
+    - name: Gemini (gmid)
       description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Uncategorized
+      category: Servidor principal
+    - name: Gophernicus
+      # description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+      category: Servidor principal
+    - name: Radio (icecast)
+      category: Servidor principal
+    - name: Pleroma
+      description: Red social con Activity Pub
+      category: Servidor Santiago
+    - name: Mumble CL
+      category: Servidor Santiago
+    - name: Mumble tilde
+      category: Servidor principal
+    - name: IRC tilde.chat
+      description: Nuestro nodo de Tilde.Chat en texto-plano.tilde.chat
+      category: Servidor Santiago
 
   # What date format to use?
   #
