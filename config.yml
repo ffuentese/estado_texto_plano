@@ -72,6 +72,7 @@ params:
     - name: Git
       category: Servidor principal
       description: cgit
+      link: https://git.texto-plano.xyz/
   dateFormat: January 2, 2006 at 3:04 PM UTC
   brand: "#0a0c0f"
   enableLastMod: true
