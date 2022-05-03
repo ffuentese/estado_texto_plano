@@ -69,6 +69,9 @@ params:
     - name: IRC
       description: Nuestro nodo de Tilde.Chat en texto-plano.tilde.chat
       category: Servidor Santiago
+    - name: Git
+      category: Servidor principal
+      description: cgit
   dateFormat: January 2, 2006 at 3:04 PM UTC
   brand: "#0a0c0f"
   enableLastMod: true
