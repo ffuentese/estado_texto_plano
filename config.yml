@@ -51,11 +51,11 @@ params:
       description: La wiki de Texto-Plano
       category: Servidor principal
       link: https://wiki.texto-plano.xyz/
-    - name: Gemini (gmid)
+    - name: Gemini
       category: Servidor principal
     - name: Gophernicus
       category: Servidor principal
-    - name: Radio (icecast)
+    - name: Radio
       category: Servidor principal
       link: http://texto-plano.xyz:8000/
     - name: Pleroma
@@ -73,6 +73,9 @@ params:
       category: Servidor principal
       description: cgit
       link: https://git.texto-plano.xyz/
+    - name: Jabber
+      category: Servidor principal
+      description: Protocolo XMPP para chatear en conferencia y uno a uno.
   dateFormat: January 2, 2006 at 3:04 PM UTC
   brand: "#0a0c0f"
   enableLastMod: true
