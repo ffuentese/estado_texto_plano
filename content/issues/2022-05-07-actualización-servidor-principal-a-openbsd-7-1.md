@@ -5,7 +5,7 @@ date: 2022-05-14T04:00:14.784Z
 resolved: true
 draft: false
 informational: true
-pin: true
+pin: false
 resolvedWhen: 2022-05-14T05:00:14.820Z
 affected:
   - SSH
