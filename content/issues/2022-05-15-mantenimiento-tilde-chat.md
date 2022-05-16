@@ -2,7 +2,7 @@
 section: issue
 title: Mantenimiento tilde.chat
 date: 2022-05-15T22:00:45.661Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
