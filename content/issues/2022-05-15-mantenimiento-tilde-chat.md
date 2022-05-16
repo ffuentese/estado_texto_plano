@@ -4,7 +4,7 @@ title: Mantenimiento tilde.chat
 date: 2022-05-15T22:00:45.661Z
 resolved: true
 draft: false
-informational: false
+informational: true
 pin: false
 resolvedWhen: 2022-05-16T12:15:52.255Z
 affected:
