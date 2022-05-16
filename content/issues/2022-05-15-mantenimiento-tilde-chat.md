@@ -6,7 +6,7 @@ resolved: true
 draft: false
 informational: false
 pin: false
-resolvedWhen: 2022-05-15T23:00:45.693Z
+resolvedWhen: 2022-05-16T12:15:52.255Z
 affected:
   - IRC
 severity: notice
