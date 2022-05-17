@@ -13,3 +13,5 @@ severity: disrupted
 ---
 
 *Investigando* Estamos investigando un problema que puede afectar a usuarios de Jabber/XMPP conectandose a la conferencia de Texto-Plano (general@conference.texto-plano.xyz) lo cual se puede deber a cambios en una version de prosody. 
+
+*Resuelto* Ver detalles al final de este reporte de errores de prosody.im https://issues.prosody.im/1737 (la ultima pregunta no era necesaria, con la última instruccion ya se arreglaba el problema)
