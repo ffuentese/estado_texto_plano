@@ -5,7 +5,7 @@ date: 2022-05-15T04:41:00.000Z
 resolved: true
 draft: false
 informational: true
-pin: true
+pin: false
 resolvedWhen: 2022-05-16T23:10:55.598Z
 affected:
   - Jabber
