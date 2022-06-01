@@ -101,5 +101,5 @@ params:
       untitled: true
   description: Monitoreamos continuamente el estado de los servicios del tilde y
     si hubiera cualquier problema se publicará una nota aquí.
-  enableCustomHTML: true
+  enableCustomHTML: false
   useLargeHeaderDesign: false
