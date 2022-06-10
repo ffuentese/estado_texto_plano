@@ -2,10 +2,10 @@
 section: issue
 title: Mantenimiento Vultr
 date: 2022-06-06T14:30:40.872Z
-resolved: false
+resolved: true
 draft: false
 informational: true
-pin: true
+pin: false
 resolvedWhen: 2022-06-06T16:30:40.915Z
 affected:
   - SSH
