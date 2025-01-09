@@ -4,7 +4,7 @@ title: intermitencia con Prosody (XMPP/Jabber)
 date: 2025-05-02T04:41:00.000Z
 resolved: false
 draft: false
-informational: true
+informational: false
 pin: true
 affected:
   - Jabber
