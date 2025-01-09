@@ -5,8 +5,7 @@ date: 2025-05-02T04:41:00.000Z
 resolved: false
 draft: false
 informational: true
-pin: false
-resolvedWhen: false
+pin: true
 affected:
   - Jabber
 severity: disrupted
