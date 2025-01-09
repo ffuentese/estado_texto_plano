@@ -57,18 +57,9 @@ params:
       category: Servidor principal
     - name: Radio
       category: Servidor principal
-      link: http://texto-plano.xyz:8000/
-    - name: Pleroma
-      description: Red social con Activity Pub
-      category: Servidor Santiago
-      link: https://soc.texto-plano.xyz/
-    - name: Mumble CL
-      category: Servidor Santiago
+      link: http://texto-plano.xyz:8000
     - name: Mumble tilde
       category: Servidor principal
-    - name: IRC
-      description: Nuestro nodo de Tilde.Chat en texto-plano.tilde.chat
-      category: Servidor Santiago
     - name: Git
       category: Servidor principal
       description: cgit
@@ -95,10 +86,6 @@ params:
     - name: Servidor principal
       description: El tilde mismo, está localizado en el centro de datos de Vultr en Miami
       closed: false
-    - name: Servidor Santiago
-      description: (Oracle en Santiago de Chile)
-    - name: Uncategorized
-      untitled: true
   description: Monitoreamos continuamente el estado de los servicios del tilde y
     si hubiera cualquier problema se publicará una nota aquí.
   enableCustomHTML: false
