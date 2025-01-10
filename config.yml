@@ -84,5 +84,5 @@ params:
       closed: false
   description: Monitoreamos continuamente el estado de los servicios del tilde y
     si hubiera cualquier problema se publicará una nota aquí.
-  enableCustomHTML: false
+  enableCustomHTML: true
   useLargeHeaderDesign: false
