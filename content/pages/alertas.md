@@ -43,8 +43,7 @@ const app = new Vue({
         message:''
     },
     methods:{
-        async sendForm() {
-            let flag  =      
+        async sendForm() {  
             let formData = new FormData();
             formData.append('user', this.user);
             formData.append('message', this.checkedNames);
