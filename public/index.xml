@@ -8,7 +8,7 @@
       <generator>github.com/cstate</generator>
       <language>es</language>
       
-      <lastBuildDate>Sat, 10 May 2025 20:41:00 +0000</lastBuildDate>
+      <lastBuildDate>Fri, 02 May 2025 04:41:00 +0000</lastBuildDate>
       
       
       
@@ -17,22 +17,22 @@
       
       
         <item>
-          <title>Actualización de OpenBSD a 7.5</title>
-          <link>https://estado.texto-plano.xyz/issues/2025-01-10-actualizacion-openbsd-7.5/</link>
-          <pubDate>Sat, 10 May 2025 20:41:00 +0000</pubDate>
-          <guid>https://estado.texto-plano.xyz/issues/2025-01-10-actualizacion-openbsd-7.5/</guid>
-          <category></category>
-          <description>&lt;p&gt;Se actualizará texto-plano servidor a la versión 7.5 de OpenBSD.&lt;/p&gt;
-</description>
-        </item>
-      
-        <item>
           <title>intermitencia con Prosody (XMPP/Jabber)</title>
           <link>https://estado.texto-plano.xyz/issues/2025-01-09-intermitencia-prosody-jabber/</link>
           <pubDate>Fri, 02 May 2025 04:41:00 +0000</pubDate>
           <guid>https://estado.texto-plano.xyz/issues/2025-01-09-intermitencia-prosody-jabber/</guid>
           <category></category>
           <description>&lt;p&gt;&lt;em&gt;Investigando&lt;/em&gt; Estamos investigando un problema que puede afectar a usuarios de Jabber/XMPP conectandose a la conferencia de Texto-Plano (&lt;a href=&#34;mailto:general@conference.texto-plano.xyz&#34;&gt;general@conference.texto-plano.xyz&lt;/a&gt;) lo cual se puede deber a cambios en una version de prosody.&lt;/p&gt;
+</description>
+        </item>
+      
+        <item>
+          <title>Actualización de OpenBSD a 7.5</title>
+          <link>https://estado.texto-plano.xyz/issues/2025-01-10-actualizacion-openbsd-7.5/</link>
+          <pubDate>Sun, 05 Jan 2025 23:41:00 +0000</pubDate>
+          <guid>https://estado.texto-plano.xyz/issues/2025-01-10-actualizacion-openbsd-7.5/</guid>
+          <category>2025-01-10T16:50:42.474Z</category>
+          <description>&lt;p&gt;Se actualizará texto-plano servidor a la versión 7.5 de OpenBSD.&lt;/p&gt;
 </description>
         </item>
       

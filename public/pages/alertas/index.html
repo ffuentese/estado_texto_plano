@@ -6,12 +6,51 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <meta name="description" content="Monitoreamos continuamente el estado de los servicios del tilde y si hubiera cualquier problema se publicará una nota aquí.">
-    <title>Gemini | Estado operacional de Texto-Plano</title>
-    <link rel="canonical" href="https://estado.texto-plano.xyz/affected/gemini/">
-    <link rel="alternate" type="application/json" href="https://estado.texto-plano.xyz/affected/gemini/index.json" title="Estado operacional de Texto-Plano" />
-    <link rel="alternate" type="application/rss+xml" href="https://estado.texto-plano.xyz/affected/gemini/index.xml" title="Estado operacional de Texto-Plano" />
-    <link rel="alternate" type="image/svg+xml" href="https://estado.texto-plano.xyz/affected/gemini/index.svg" title="Estado operacional de Texto-Plano" />
+    <meta name="description" content=" 
+
+
+Alertas
+Si detectas que algún servicio de Texto-Plano no esta funcionando, avisanos:
+
+
+  
+    Tu usuario: 
+  
+  
+    ¿Qué servicios no están funcionando?:
+
+ 
+ Servidor inaccesible
+ 
+ Servidor Jabber
+ 
+ Servidor Web 
+ 
+ Wiki 
+ 
+ Servidor Gemini 
+ 
+ Servidor Gopher 
+ 
+ BBJ
+ 
+ Radio 
+ 
+ Servidor Mumble (conversación por audio)
+
+  
+ 
+  
+    Enviar
+  
+
+
+
+
+">
+    <title>Estado operacional de Texto-Plano</title>
+    <link rel="canonical" href="https://estado.texto-plano.xyz/pages/alertas/">
+    <link rel="alternate" type="application/json" href="https://estado.texto-plano.xyz/pages/alertas/index.json" title="Estado operacional de Texto-Plano" />
     <meta name="generator" content="cState v5.6.1 - https://github.com/cstate/cstate">
     <meta name="theme-color" content="#0a0c0f">
     <script>
@@ -403,147 +442,88 @@
     
   </head>
 
-
-
-  <body class="default list">
-    <header>
-      <div class="contain">
-        <a href="https://estado.texto-plano.xyz/">← Volver a <em>Estado operacional de Texto-Plano</em></a>
-        <div class="padding"></div>
-        <div class="padding"></div>
-
-        <h1 class="clean">Gemini</h1>
-
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-            
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
- 
-
-        
-        
-        
-        <p class="bold">
-          <em>
-            
-
-            
-              
-              
-
-              
-                
-                
-
-                
-              
-
-              
-                
-                
-
-                
-              
-
-              Recientemente, según datos promedio, parece que este sistema ha estado inactivo durante aproximadamente
-              
-              90
-              minutos a la vez.
-            
-          </em>
-        </p>
-        
-
-
-        <small class="faded">2 entradas, reciente a más antiguo</small>
-
-        <div class="padding"></div>
-        <hr class="clean">
-      </div>
-      
-    </header>
-
-    <div class="contain contain--more" id="incidents">
-      
-        
-        
-          
-
-
-
-
-
-
-<a href="https://estado.texto-plano.xyz/issues/2022-06-01-mantenimiento-vultr/" class="issue no-underline">
-  
-
-  <small class="date float-right relative-time" title="junio 6, 2022 at 2:30 PM UTC" data-date="Jun 6 14:30:40 2022 UTC">
-      
-        junio 6, 2022 at 2:30 PM UTC
-      
-    </small>
-
-    <h3>
-      Mantenimiento Vultr &nbsp;ℹ
-    </h3>
-    <span class="faded"><p>Event Summary: Miami Scheduled Maintenance - 2022-06-06</p>
-<p>Event Type: Network Upgrade</p>
-<p>We are performing system changes in the Miami locationss during the following scheduled maintenance window.</p>
-<p>Start …</p>
-    </span>
-
-  
-</a>
-
-        
-          
-
-
-
-
-
-
-<a href="https://estado.texto-plano.xyz/issues/2022-05-07-actualizaci%C3%B3n-servidor-principal-a-openbsd-7-1/" class="issue no-underline">
-  
-
-  <small class="date float-right relative-time" title="mayo 14, 2022 at 4:00 AM UTC" data-date="May 14 04:00:14 2022 UTC">
-      
-        mayo 14, 2022 at 4:00 AM UTC
-      
-    </small>
-
-    <h3>
-      Actualización Servidor Principal a OpenBSD 7.1 &nbsp;ℹ
-    </h3>
-    <span class="faded"><p>Vamos a actualizar el servidor a OpenBSD 7.1 por lo que todos los servicios del servidor principal van a estar abajo quedando solo esta web y los servicios de Santiago arriba hasta que terminemos. …</p>
-    </span>
-
-  
-</a>
-
-        
-
-        
-        
+  <body class="default single">
+    <div class="contain">
+      <a href="https://estado.texto-plano.xyz/">← Volver a <em>Estado operacional de Texto-Plano</em></a>
       
       <div class="padding"></div>
+
+      <html> 
+<style>
+#rev
+{
+    display:none;
+    visibility:hidden;
+}
+</style>
+<body>
+<h1>Alertas</h1>
+<p>Si detectas que algún servicio de Texto-Plano no esta funcionando, avisanos:</p>
+
+<form id="myForm" name="contact" method="POST" action="/thankyou.html">
+  <p>
+    <label>Tu usuario: <input type="text" name="user" v-model="user" /></label>
+  </p>
+  <p>
+    <label>¿Qué servicios no están funcionando?:</p>
+<p>
+ <input type="checkbox" id="servidor" name="servidor" value="servidor-inaccesible" v-model="checkedNames">
+<label for="jabber"> Servidor inaccesible</label><br>
+ <input type="checkbox" id="jabber" name="jabber" value="prosody" v-model="checkedNames">
+<label for="jabber"> Servidor Jabber</label><br>
+ <input type="checkbox" id="web" name="web" value="nginx" v-model="checkedNames">
+<label for="web"> Servidor Web </label><br>
+ <input type="checkbox" id="wiki" name="wiki" value="wiki" v-model="checkedNames">
+<label for="wiki"> Wiki </label><br>
+ <input type="checkbox" id="gemini" name="gemini" value="gemini" v-model="checkedNames">
+<label for="gemini"> Servidor Gemini </label><br>
+ <input type="checkbox" id="gopher" name="gopher" value="gophernicus" v-model="checkedNames">
+<label for="gopher"> Servidor Gopher </label><br>
+ <input type="checkbox" id="bbj" name="bbj" value="bbj" v-model="checkedNames">
+<label for="bbj"> BBJ</label><br>
+ <input type="checkbox" id="radio" name="radio" value="icecast" v-model="checkedNames">
+<label for="bbj"> Radio </label><br>
+ <input type="checkbox" id="mumble" name="mumble" value="murmurd" v-model="checkedNames">
+<label for="mumble"> Servidor Mumble (conversación por audio)</label><br>
+<br>
+  </p>
+<p> <input type="text" id="rev" name="rev"  v-model="rev"></p>
+  <p>
+    <button type="submit"  @click.prevent="checkForm">Enviar</button>
+  </p>
+</form>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+const app = new Vue({
+    el:'#myForm',
+    data:{
+        user:'',
+        checkedNames:[],
+	rev:''
+    },
+    methods:{
+	checkForm:function() {
+		if (this.rev === "" && this.user !== "") { this.sendForm(); }
+	},
+        async sendForm() {  
+            let messageBody = this.user + " indica que los siguientes servicios de texto-plano no funcionan: " + this.checkedNames;
+             
+            let resp = await fetch('https://ntfy.sh/alertas_tp', {
+                method:'POST',
+headers: {
+        'Title': 'Incidencia en texto-plano.xyz'
+    },
+                body:messageBody
+            });
+            // assume ok, although double check
+            alert('Enviado!');
+        }
+    }
+});
+</script>
+</body>
+</html>
+
     </div>
 
     <script type="text/javascript">
@@ -696,8 +676,6 @@
             <a href="https://estado.texto-plano.xyz/index.xml" class="no-underline">a todas las actualizaciones</a>
           
           
-          
-            o <a href="https://estado.texto-plano.xyz/affected/gemini/index.xml" class="no-underline">solo este feed (Gemini)</a>
           
           
         </small>

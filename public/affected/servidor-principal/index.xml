@@ -8,8 +8,8 @@
     <generator>github.com/cstate</generator>
     <language>es</language>
     
-    <lastBuildDate>2025-05-10T20:41:00+00:00</lastBuildDate>
-    <updated>2025-05-10T20:41:00+00:00</updated>
+    <lastBuildDate>2025-01-05T23:41:00+00:00</lastBuildDate>
+    <updated>2025-01-05T23:41:00+00:00</updated>
     
     
     
@@ -19,9 +19,9 @@
       <item>
         <title>Actualización de OpenBSD a 7.5</title>
         <link>https://estado.texto-plano.xyz/issues/2025-01-10-actualizacion-openbsd-7.5/</link>
-        <pubDate>Sat, 10 May 2025 20:41:00 +0000</pubDate>
+        <pubDate>Sun, 05 Jan 2025 23:41:00 +0000</pubDate>
         <guid>https://estado.texto-plano.xyz/issues/2025-01-10-actualizacion-openbsd-7.5/</guid>
-        <category></category>
+        <category>2025-01-10T16:50:42.474Z</category>
         <description>&lt;p&gt;Se actualizará texto-plano servidor a la versión 7.5 de OpenBSD.&lt;/p&gt;</description>
         <content type="html">&lt;p&gt;Se actualizará texto-plano servidor a la versión 7.5 de OpenBSD.&lt;/p&gt;
 </content>

@@ -14,6 +14,165 @@
     
     
       <item>
+        <title></title>
+        <link>https://estado.texto-plano.xyz/pages/alertas/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <guid>https://estado.texto-plano.xyz/pages/alertas/</guid>
+        <category></category>
+        <description>&lt;html&gt; 
+&lt;style&gt;
+#rev
+{
+    display:none;
+    visibility:hidden;
+}
+&lt;/style&gt;
+&lt;body&gt;
+&lt;h1&gt;Alertas&lt;/h1&gt;
+&lt;p&gt;Si detectas que algún servicio de Texto-Plano no esta funcionando, avisanos:&lt;/p&gt;
+
+&lt;form id=&#34;myForm&#34; name=&#34;contact&#34; method=&#34;POST&#34; action=&#34;https://estado.texto-plano.xyz/thankyou.html&#34;&gt;
+  &lt;p&gt;
+    &lt;label&gt;Tu usuario: &lt;input type=&#34;text&#34; name=&#34;user&#34; v-model=&#34;user&#34; /&gt;&lt;/label&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+    &lt;label&gt;¿Qué servicios no están funcionando?:&lt;/p&gt;
+&lt;p&gt;
+ &lt;input type=&#34;checkbox&#34; id=&#34;servidor&#34; name=&#34;servidor&#34; value=&#34;servidor-inaccesible&#34; v-model=&#34;checkedNames&#34;&gt;
+&lt;label for=&#34;jabber&#34;&gt; Servidor inaccesible&lt;/label&gt;&lt;br&gt;
+ &lt;input type=&#34;checkbox&#34; id=&#34;jabber&#34; name=&#34;jabber&#34; value=&#34;prosody&#34; v-model=&#34;checkedNames&#34;&gt;
+&lt;label for=&#34;jabber&#34;&gt; Servidor Jabber&lt;/label&gt;&lt;br&gt;
+ &lt;input type=&#34;checkbox&#34; id=&#34;web&#34; name=&#34;web&#34; value=&#34;nginx&#34; v-model=&#34;checkedNames&#34;&gt;
+&lt;label for=&#34;web&#34;&gt; Servidor Web &lt;/label&gt;&lt;br&gt;
+ &lt;input type=&#34;checkbox&#34; id=&#34;wiki&#34; name=&#34;wiki&#34; value=&#34;wiki&#34; v-model=&#34;checkedNames&#34;&gt;
+&lt;label for=&#34;wiki&#34;&gt; Wiki &lt;/label&gt;&lt;br&gt;
+ &lt;input type=&#34;checkbox&#34; id=&#34;gemini&#34; name=&#34;gemini&#34; value=&#34;gemini&#34; v-model=&#34;checkedNames&#34;&gt;
+&lt;label for=&#34;gemini&#34;&gt; Servidor Gemini &lt;/label&gt;&lt;br&gt;
+ &lt;input type=&#34;checkbox&#34; id=&#34;gopher&#34; name=&#34;gopher&#34; value=&#34;gophernicus&#34; v-model=&#34;checkedNames&#34;&gt;
+&lt;label for=&#34;gopher&#34;&gt; Servidor Gopher &lt;/label&gt;&lt;br&gt;
+ &lt;input type=&#34;checkbox&#34; id=&#34;bbj&#34; name=&#34;bbj&#34; value=&#34;bbj&#34; v-model=&#34;checkedNames&#34;&gt;
+&lt;label for=&#34;bbj&#34;&gt; BBJ&lt;/label&gt;&lt;br&gt;
+ &lt;input type=&#34;checkbox&#34; id=&#34;radio&#34; name=&#34;radio&#34; value=&#34;icecast&#34; v-model=&#34;checkedNames&#34;&gt;
+&lt;label for=&#34;bbj&#34;&gt; Radio &lt;/label&gt;&lt;br&gt;
+ &lt;input type=&#34;checkbox&#34; id=&#34;mumble&#34; name=&#34;mumble&#34; value=&#34;murmurd&#34; v-model=&#34;checkedNames&#34;&gt;
+&lt;label for=&#34;mumble&#34;&gt; Servidor Mumble (conversación por audio)&lt;/label&gt;&lt;br&gt;
+&lt;br&gt;
+  &lt;/p&gt;
+&lt;p&gt; &lt;input type=&#34;text&#34; id=&#34;rev&#34; name=&#34;rev&#34;  v-model=&#34;rev&#34;&gt;&lt;/p&gt;
+  &lt;p&gt;
+    &lt;button type=&#34;submit&#34;  @click.prevent=&#34;checkForm&#34;&gt;Enviar&lt;/button&gt;
+  &lt;/p&gt;
+&lt;/form&gt;
+&lt;script src=&#34;https://cdn.jsdelivr.net/npm/vue/dist/vue.js&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+const app = new Vue({
+    el:&#39;#myForm&#39;,
+    data:{
+        user:&#39;&#39;,
+        checkedNames:[],
+	rev:&#39;&#39;
+    },
+    methods:{
+	checkForm:function() {
+		if (this.rev === &#34;&#34; &amp;&amp; this.user !== &#34;&#34;) { this.sendForm(); }
+	},
+        async sendForm() {  
+            let messageBody = this.user + &#34; indica que los siguientes servicios de texto-plano no funcionan: &#34; + this.checkedNames;
+             
+            let resp = await fetch(&#39;https://ntfy.sh/alertas_tp&#39;, {
+                method:&#39;POST&#39;,
+headers: {
+        &#39;Title&#39;: &#39;Incidencia en texto-plano.xyz&#39;
+    },
+                body:messageBody
+            });
+            // assume ok, although double check
+            alert(&#39;Enviado!&#39;);
+        }
+    }
+});
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description>
+        <content type="html">&lt;html&gt; 
+&lt;style&gt;
+#rev
+{
+    display:none;
+    visibility:hidden;
+}
+&lt;/style&gt;
+&lt;body&gt;
+&lt;h1&gt;Alertas&lt;/h1&gt;
+&lt;p&gt;Si detectas que algún servicio de Texto-Plano no esta funcionando, avisanos:&lt;/p&gt;
+
+&lt;form id=&#34;myForm&#34; name=&#34;contact&#34; method=&#34;POST&#34; action=&#34;https://estado.texto-plano.xyz/thankyou.html&#34;&gt;
+  &lt;p&gt;
+    &lt;label&gt;Tu usuario: &lt;input type=&#34;text&#34; name=&#34;user&#34; v-model=&#34;user&#34; /&gt;&lt;/label&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+    &lt;label&gt;¿Qué servicios no están funcionando?:&lt;/p&gt;
+&lt;p&gt;
+ &lt;input type=&#34;checkbox&#34; id=&#34;servidor&#34; name=&#34;servidor&#34; value=&#34;servidor-inaccesible&#34; v-model=&#34;checkedNames&#34;&gt;
+&lt;label for=&#34;jabber&#34;&gt; Servidor inaccesible&lt;/label&gt;&lt;br&gt;
+ &lt;input type=&#34;checkbox&#34; id=&#34;jabber&#34; name=&#34;jabber&#34; value=&#34;prosody&#34; v-model=&#34;checkedNames&#34;&gt;
+&lt;label for=&#34;jabber&#34;&gt; Servidor Jabber&lt;/label&gt;&lt;br&gt;
+ &lt;input type=&#34;checkbox&#34; id=&#34;web&#34; name=&#34;web&#34; value=&#34;nginx&#34; v-model=&#34;checkedNames&#34;&gt;
+&lt;label for=&#34;web&#34;&gt; Servidor Web &lt;/label&gt;&lt;br&gt;
+ &lt;input type=&#34;checkbox&#34; id=&#34;wiki&#34; name=&#34;wiki&#34; value=&#34;wiki&#34; v-model=&#34;checkedNames&#34;&gt;
+&lt;label for=&#34;wiki&#34;&gt; Wiki &lt;/label&gt;&lt;br&gt;
+ &lt;input type=&#34;checkbox&#34; id=&#34;gemini&#34; name=&#34;gemini&#34; value=&#34;gemini&#34; v-model=&#34;checkedNames&#34;&gt;
+&lt;label for=&#34;gemini&#34;&gt; Servidor Gemini &lt;/label&gt;&lt;br&gt;
+ &lt;input type=&#34;checkbox&#34; id=&#34;gopher&#34; name=&#34;gopher&#34; value=&#34;gophernicus&#34; v-model=&#34;checkedNames&#34;&gt;
+&lt;label for=&#34;gopher&#34;&gt; Servidor Gopher &lt;/label&gt;&lt;br&gt;
+ &lt;input type=&#34;checkbox&#34; id=&#34;bbj&#34; name=&#34;bbj&#34; value=&#34;bbj&#34; v-model=&#34;checkedNames&#34;&gt;
+&lt;label for=&#34;bbj&#34;&gt; BBJ&lt;/label&gt;&lt;br&gt;
+ &lt;input type=&#34;checkbox&#34; id=&#34;radio&#34; name=&#34;radio&#34; value=&#34;icecast&#34; v-model=&#34;checkedNames&#34;&gt;
+&lt;label for=&#34;bbj&#34;&gt; Radio &lt;/label&gt;&lt;br&gt;
+ &lt;input type=&#34;checkbox&#34; id=&#34;mumble&#34; name=&#34;mumble&#34; value=&#34;murmurd&#34; v-model=&#34;checkedNames&#34;&gt;
+&lt;label for=&#34;mumble&#34;&gt; Servidor Mumble (conversación por audio)&lt;/label&gt;&lt;br&gt;
+&lt;br&gt;
+  &lt;/p&gt;
+&lt;p&gt; &lt;input type=&#34;text&#34; id=&#34;rev&#34; name=&#34;rev&#34;  v-model=&#34;rev&#34;&gt;&lt;/p&gt;
+  &lt;p&gt;
+    &lt;button type=&#34;submit&#34;  @click.prevent=&#34;checkForm&#34;&gt;Enviar&lt;/button&gt;
+  &lt;/p&gt;
+&lt;/form&gt;
+&lt;script src=&#34;https://cdn.jsdelivr.net/npm/vue/dist/vue.js&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+const app = new Vue({
+    el:&#39;#myForm&#39;,
+    data:{
+        user:&#39;&#39;,
+        checkedNames:[],
+	rev:&#39;&#39;
+    },
+    methods:{
+	checkForm:function() {
+		if (this.rev === &#34;&#34; &amp;&amp; this.user !== &#34;&#34;) { this.sendForm(); }
+	},
+        async sendForm() {  
+            let messageBody = this.user + &#34; indica que los siguientes servicios de texto-plano no funcionan: &#34; + this.checkedNames;
+             
+            let resp = await fetch(&#39;https://ntfy.sh/alertas_tp&#39;, {
+                method:&#39;POST&#39;,
+headers: {
+        &#39;Title&#39;: &#39;Incidencia en texto-plano.xyz&#39;
+    },
+                body:messageBody
+            });
+            // assume ok, although double check
+            alert(&#39;Enviado!&#39;);
+        }
+    }
+});
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+      </item>
+    
+      <item>
         <title>Example Page</title>
         <link>https://estado.texto-plano.xyz/pages/example-page/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
