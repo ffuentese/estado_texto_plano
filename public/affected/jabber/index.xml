@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="http://localhost:1313/"/>
+    <title>Jabber on Estado operacional de Texto-Plano</title>
+    <link>http://localhost:1313/affected/jabber/</link>
+    <description>Historial de incidentes</description>
+    <generator>github.com/cstate</generator>
+    <language>es</language>
+    
+    <lastBuildDate>2025-05-02T04:41:00+00:00</lastBuildDate>
+    <updated>2025-05-02T04:41:00+00:00</updated>
+    
+    
+    
+      <atom:link href="http://localhost:1313/affected/jabber/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>intermitencia con Prosody (XMPP/Jabber)</title>
+        <link>http://localhost:1313/issues/2025-01-09-intermitencia-prosody-jabber/</link>
+        <pubDate>Fri, 02 May 2025 04:41:00 +0000</pubDate>
+        <guid>http://localhost:1313/issues/2025-01-09-intermitencia-prosody-jabber/</guid>
+        <category></category>
+        <description>&lt;p&gt;&lt;em&gt;Investigando&lt;/em&gt; Estamos investigando un problema que puede afectar a usuarios de Jabber/XMPP conectandose a la conferencia de Texto-Plano (&lt;a href=&#34;mailto:general@conference.texto-plano.xyz&#34;&gt;general@conference.texto-plano.xyz&lt;/a&gt;) lo cual se puede deber a cambios en una version de prosody.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigando&lt;/em&gt; Estamos investigando un problema que puede afectar a usuarios de Jabber/XMPP conectandose a la conferencia de Texto-Plano (&lt;a href=&#34;mailto:general@conference.texto-plano.xyz&#34;&gt;general@conference.texto-plano.xyz&lt;/a&gt;) lo cual se puede deber a cambios en una version de prosody.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resuelto] Problemas con Prosody (XMPP)</title>
+        <link>http://localhost:1313/issues/2022-05-15-problemas-con-prosody-xmpp/</link>
+        <pubDate>Sun, 15 May 2022 04:41:00 +0000</pubDate>
+        <guid>http://localhost:1313/issues/2022-05-15-problemas-con-prosody-xmpp/</guid>
+        <category>2022-05-16T23:10:55.598Z</category>
+        <description>&lt;p&gt;&lt;em&gt;Investigando&lt;/em&gt; Estamos investigando un problema que puede afectar a usuarios de Jabber/XMPP conectandose a la conferencia de Texto-Plano (&lt;a href=&#34;mailto:general@conference.texto-plano.xyz&#34;&gt;general@conference.texto-plano.xyz&lt;/a&gt;) lo cual se puede deber a cambios en una version de prosody.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Resuelto&lt;/em&gt; Ver detalles al final de este reporte de errores de prosody.im &lt;a href=&#34;https://issues.prosody.im/1737&#34;&gt;https://issues.prosody.im/1737&lt;/a&gt; (la ultima pregunta no era necesaria, con la última instruccion ya se arreglaba el problema)&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigando&lt;/em&gt; Estamos investigando un problema que puede afectar a usuarios de Jabber/XMPP conectandose a la conferencia de Texto-Plano (&lt;a href=&#34;mailto:general@conference.texto-plano.xyz&#34;&gt;general@conference.texto-plano.xyz&lt;/a&gt;) lo cual se puede deber a cambios en una version de prosody.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Resuelto&lt;/em&gt; Ver detalles al final de este reporte de errores de prosody.im &lt;a href=&#34;https://issues.prosody.im/1737&#34;&gt;https://issues.prosody.im/1737&lt;/a&gt; (la ultima pregunta no era necesaria, con la última instruccion ya se arreglaba el problema)&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resuelto] Actualización Servidor Principal a OpenBSD 7.1</title>
+        <link>http://localhost:1313/issues/2022-05-07-actualizaci%C3%B3n-servidor-principal-a-openbsd-7-1/</link>
+        <pubDate>Sat, 14 May 2022 04:00:14 +0000</pubDate>
+        <guid>http://localhost:1313/issues/2022-05-07-actualizaci%C3%B3n-servidor-principal-a-openbsd-7-1/</guid>
+        <category>2022-05-14T05:00:14.820Z</category>
+        <description>&lt;p&gt;Vamos a actualizar el servidor a OpenBSD 7.1 por lo que todos los servicios del servidor principal van a estar abajo quedando solo esta web y los servicios de Santiago arriba hasta que terminemos.&lt;/p&gt;
+&lt;p&gt;Monitoreo: Estamos revisando si los servicios estan funcionando como corresponde.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;Vamos a actualizar el servidor a OpenBSD 7.1 por lo que todos los servicios del servidor principal van a estar abajo quedando solo esta web y los servicios de Santiago arriba hasta que terminemos.&lt;/p&gt;
+&lt;p&gt;Monitoreo: Estamos revisando si los servicios estan funcionando como corresponde.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

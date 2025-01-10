@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Mantenimiento Vultr",
+  "body": "\u003cp\u003eEvent Summary: Miami Scheduled Maintenance - 2022-06-06\u003c/p\u003e\n\u003cp\u003eEvent Type: Network Upgrade\u003c/p\u003e\n\u003cp\u003eWe are performing system changes in the Miami locationss during the following scheduled maintenance window.\u003c/p\u003e\n\u003cp\u003eStart Time: 2022-06-06 14:30:00 UTC\nEnd Time: 2022-06-06 16:30:00 UTC\u003c/p\u003e\n",
+  "createdAt": "2022-06-06 14:30:40.872 +0000 UTC",
+  "lastMod": "2022-06-10 12:25:52 +0000 +0000",
+  "permalink": "http://localhost:1313/issues/2022-06-01-mantenimiento-vultr/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": true,
+  "resolvedAt": "2022-06-06T16:30:40.915Z",
+  "affected": ["SSH", "BBJ", "Web", "Gemini", "Gophernicus", ""],
+  "filename": "2022-06-01-mantenimiento-vultr.md"
+}

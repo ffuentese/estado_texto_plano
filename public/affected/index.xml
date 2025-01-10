@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="http://localhost:1313/"/>
+    <title>Affected on Estado operacional de Texto-Plano</title>
+    <link>http://localhost:1313/affected/</link>
+    <description>Historial de incidentes</description>
+    <generator>github.com/cstate</generator>
+    <language>es</language>
+    
+    <lastBuildDate>2025-05-10T20:41:00+00:00</lastBuildDate>
+    <updated>2025-05-10T20:41:00+00:00</updated>
+    
+    
+    
+      <atom:link href="http://localhost:1313/affected/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Servidor Principal</title>
+        <link>http://localhost:1313/affected/servidor-principal/</link>
+        <pubDate>Sat, 10 May 2025 20:41:00 +0000</pubDate>
+        <guid>http://localhost:1313/affected/servidor-principal/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Jabber</title>
+        <link>http://localhost:1313/affected/jabber/</link>
+        <pubDate>Fri, 02 May 2025 04:41:00 +0000</pubDate>
+        <guid>http://localhost:1313/affected/jabber/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>BBJ</title>
+        <link>http://localhost:1313/affected/bbj/</link>
+        <pubDate>Mon, 06 Jun 2022 14:30:40 +0000</pubDate>
+        <guid>http://localhost:1313/affected/bbj/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Gemini</title>
+        <link>http://localhost:1313/affected/gemini/</link>
+        <pubDate>Mon, 06 Jun 2022 14:30:40 +0000</pubDate>
+        <guid>http://localhost:1313/affected/gemini/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Gophernicus</title>
+        <link>http://localhost:1313/affected/gophernicus/</link>
+        <pubDate>Mon, 06 Jun 2022 14:30:40 +0000</pubDate>
+        <guid>http://localhost:1313/affected/gophernicus/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>SSH</title>
+        <link>http://localhost:1313/affected/ssh/</link>
+        <pubDate>Mon, 06 Jun 2022 14:30:40 +0000</pubDate>
+        <guid>http://localhost:1313/affected/ssh/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Web</title>
+        <link>http://localhost:1313/affected/web/</link>
+        <pubDate>Mon, 06 Jun 2022 14:30:40 +0000</pubDate>
+        <guid>http://localhost:1313/affected/web/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>IRC</title>
+        <link>http://localhost:1313/affected/irc/</link>
+        <pubDate>Sun, 15 May 2022 22:00:45 +0000</pubDate>
+        <guid>http://localhost:1313/affected/irc/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Git</title>
+        <link>http://localhost:1313/affected/git/</link>
+        <pubDate>Sat, 14 May 2022 04:00:14 +0000</pubDate>
+        <guid>http://localhost:1313/affected/git/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Mumble</title>
+        <link>http://localhost:1313/affected/mumble/</link>
+        <pubDate>Sat, 14 May 2022 04:00:14 +0000</pubDate>
+        <guid>http://localhost:1313/affected/mumble/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Radio</title>
+        <link>http://localhost:1313/affected/radio/</link>
+        <pubDate>Sat, 14 May 2022 04:00:14 +0000</pubDate>
+        <guid>http://localhost:1313/affected/radio/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Wiki</title>
+        <link>http://localhost:1313/affected/wiki/</link>
+        <pubDate>Sat, 14 May 2022 04:00:14 +0000</pubDate>
+        <guid>http://localhost:1313/affected/wiki/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+  </channel>
+</rss>

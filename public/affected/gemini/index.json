@@ -1,0 +1,41 @@
+{
+  "is": "system",
+  "title": "Gemini",
+  "permalink": "http://localhost:1313/affected/gemini/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Mantenimiento Vultr",
+        "createdAt": "2022-06-06 14:30:40.872 +0000 UTC",
+        "lastMod": "2022-06-10 12:25:52 +0000 +0000",
+        "permalink": "http://localhost:1313/issues/2022-06-01-mantenimiento-vultr/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": true,
+        "resolvedAt": "2022-06-06T16:30:40.915Z",
+        "affected": ["SSH", "BBJ", "Web", "Gemini", "Gophernicus", ""],
+        "filename": "2022-06-01-mantenimiento-vultr.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Actualización Servidor Principal a OpenBSD 7.1",
+        "createdAt": "2022-05-14 04:00:14.784 +0000 UTC",
+        "lastMod": "2022-05-14 04:00:14.784 +0000 UTC",
+        "permalink": "http://localhost:1313/issues/2022-05-07-actualizaci%C3%B3n-servidor-principal-a-openbsd-7-1/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": true,
+        "resolvedAt": "2022-05-14T05:00:14.820Z",
+        "affected": ["SSH", "Web", "Wiki", "BBJ", "Gemini", "Gophernicus", "Radio", "Mumble", "Git", "Jabber"],
+        "filename": "2022-05-07-actualización-servidor-principal-a-openbsd-7-1.md"
+      }
+    
+  ]
+}
+
+
+
+
+

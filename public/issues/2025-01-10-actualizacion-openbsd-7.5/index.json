@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Actualización de OpenBSD a 7.5",
+  "body": "\u003cp\u003eSe actualizará texto-plano servidor a la versión 7.5 de OpenBSD.\u003c/p\u003e\n",
+  "createdAt": "2025-05-10 20:41:00 +0000 UTC",
+  "lastMod": "2025-05-10 20:41:00 +0000 UTC",
+  "permalink": "http://localhost:1313/issues/2025-01-10-actualizacion-openbsd-7.5/",
+  "severity": "notice",
+  "resolved": false,
+  "informational": true,
+  "resolvedAt": "<no value>",
+  "affected": ["servidor principal"],
+  "filename": "2025-01-10-actualizacion-openbsd-7.5.md"
+}

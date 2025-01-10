@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      
+      <title>Estado operacional de Texto-Plano</title>
+      <link>http://localhost:1313/</link>
+      <description>Historial de incidentes</description>
+      <generator>github.com/cstate</generator>
+      <language>es</language>
+      
+      <lastBuildDate>Sat, 10 May 2025 20:41:00 +0000</lastBuildDate>
+      
+      
+      
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+      
+      
+      
+        <item>
+          <title>Actualización de OpenBSD a 7.5</title>
+          <link>http://localhost:1313/issues/2025-01-10-actualizacion-openbsd-7.5/</link>
+          <pubDate>Sat, 10 May 2025 20:41:00 +0000</pubDate>
+          <guid>http://localhost:1313/issues/2025-01-10-actualizacion-openbsd-7.5/</guid>
+          <category></category>
+          <description>&lt;p&gt;Se actualizará texto-plano servidor a la versión 7.5 de OpenBSD.&lt;/p&gt;
+</description>
+        </item>
+      
+        <item>
+          <title>intermitencia con Prosody (XMPP/Jabber)</title>
+          <link>http://localhost:1313/issues/2025-01-09-intermitencia-prosody-jabber/</link>
+          <pubDate>Fri, 02 May 2025 04:41:00 +0000</pubDate>
+          <guid>http://localhost:1313/issues/2025-01-09-intermitencia-prosody-jabber/</guid>
+          <category></category>
+          <description>&lt;p&gt;&lt;em&gt;Investigando&lt;/em&gt; Estamos investigando un problema que puede afectar a usuarios de Jabber/XMPP conectandose a la conferencia de Texto-Plano (&lt;a href=&#34;mailto:general@conference.texto-plano.xyz&#34;&gt;general@conference.texto-plano.xyz&lt;/a&gt;) lo cual se puede deber a cambios en una version de prosody.&lt;/p&gt;
+</description>
+        </item>
+      
+        <item>
+          <title>[Resuelto] Reinicio de servidor</title>
+          <link>http://localhost:1313/issues/2022-07-14-reinicio-de-servidor/</link>
+          <pubDate>Tue, 12 Jul 2022 15:14:16 +0000</pubDate>
+          <guid>http://localhost:1313/issues/2022-07-14-reinicio-de-servidor/</guid>
+          <category>2022-07-12T15:45:16.089Z</category>
+          <description>&lt;p&gt;Reinicio forzoso debido a sobrecarga. Fue resuelto minutos despues&lt;/p&gt;
+</description>
+        </item>
+      
+        <item>
+          <title>[Resuelto] Mantenimiento Vultr</title>
+          <link>http://localhost:1313/issues/2022-06-01-mantenimiento-vultr/</link>
+          <pubDate>Mon, 06 Jun 2022 14:30:40 +0000</pubDate>
+          <guid>http://localhost:1313/issues/2022-06-01-mantenimiento-vultr/</guid>
+          <category>2022-06-06T16:30:40.915Z</category>
+          <description>&lt;p&gt;Event Summary: Miami Scheduled Maintenance - 2022-06-06&lt;/p&gt;
+&lt;p&gt;Event Type: Network Upgrade&lt;/p&gt;
+&lt;p&gt;We are performing system changes in the Miami locationss during the following scheduled maintenance window.&lt;/p&gt;
+&lt;p&gt;Start Time: 2022-06-06 14:30:00 UTC
+End Time: 2022-06-06 16:30:00 UTC&lt;/p&gt;
+</description>
+        </item>
+      
+        <item>
+          <title>[Resuelto] Mantenimiento tilde.chat</title>
+          <link>http://localhost:1313/issues/2022-05-15-mantenimiento-tilde-chat/</link>
+          <pubDate>Sun, 15 May 2022 22:00:45 +0000</pubDate>
+          <guid>http://localhost:1313/issues/2022-05-15-mantenimiento-tilde-chat/</guid>
+          <category>2022-05-16T12:15:52.255Z</category>
+          <description>&lt;p&gt;tilde.chat nos solicita actualizar inspircd, asi que esto se hara en la tarde de hoy y se monitoreara en lo que que queda del dia.&lt;/p&gt;
+</description>
+        </item>
+      
+        <item>
+          <title>[Resuelto] Problemas con Prosody (XMPP)</title>
+          <link>http://localhost:1313/issues/2022-05-15-problemas-con-prosody-xmpp/</link>
+          <pubDate>Sun, 15 May 2022 04:41:00 +0000</pubDate>
+          <guid>http://localhost:1313/issues/2022-05-15-problemas-con-prosody-xmpp/</guid>
+          <category>2022-05-16T23:10:55.598Z</category>
+          <description>&lt;p&gt;&lt;em&gt;Investigando&lt;/em&gt; Estamos investigando un problema que puede afectar a usuarios de Jabber/XMPP conectandose a la conferencia de Texto-Plano (&lt;a href=&#34;mailto:general@conference.texto-plano.xyz&#34;&gt;general@conference.texto-plano.xyz&lt;/a&gt;) lo cual se puede deber a cambios en una version de prosody.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Resuelto&lt;/em&gt; Ver detalles al final de este reporte de errores de prosody.im &lt;a href=&#34;https://issues.prosody.im/1737&#34;&gt;https://issues.prosody.im/1737&lt;/a&gt; (la ultima pregunta no era necesaria, con la última instruccion ya se arreglaba el problema)&lt;/p&gt;
+</description>
+        </item>
+      
+        <item>
+          <title>[Resuelto] Actualización Servidor Principal a OpenBSD 7.1</title>
+          <link>http://localhost:1313/issues/2022-05-07-actualizaci%C3%B3n-servidor-principal-a-openbsd-7-1/</link>
+          <pubDate>Sat, 14 May 2022 04:00:14 +0000</pubDate>
+          <guid>http://localhost:1313/issues/2022-05-07-actualizaci%C3%B3n-servidor-principal-a-openbsd-7-1/</guid>
+          <category>2022-05-14T05:00:14.820Z</category>
+          <description>&lt;p&gt;Vamos a actualizar el servidor a OpenBSD 7.1 por lo que todos los servicios del servidor principal van a estar abajo quedando solo esta web y los servicios de Santiago arriba hasta que terminemos.&lt;/p&gt;
+&lt;p&gt;Monitoreo: Estamos revisando si los servicios estan funcionando como corresponde.&lt;/p&gt;
+</description>
+        </item>
+      
+    </channel>
+  </rss>
+

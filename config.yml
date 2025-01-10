@@ -1,6 +1,6 @@
 title: Estado operacional de Texto-Plano
 buildFuture: true
-defaultContentLanguage: en
+defaultContentLanguage: es
 languageCode: es
 baseURL: https://estado.texto-plano.xyz
 theme: cstate
@@ -60,10 +60,6 @@ params:
       link: http://texto-plano.xyz:8000
     - name: Mumble tilde
       category: Servidor principal
-    - name: Git
-      category: Servidor principal
-      description: cgit
-      link: https://git.texto-plano.xyz/
     - name: Jabber
       category: Servidor principal
       description: Protocolo XMPP para chatear en conferencia y uno a uno.

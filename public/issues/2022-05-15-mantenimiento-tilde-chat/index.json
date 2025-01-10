@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Mantenimiento tilde.chat",
+  "body": "\u003cp\u003etilde.chat nos solicita actualizar inspircd, asi que esto se hara en la tarde de hoy y se monitoreara en lo que que queda del dia.\u003c/p\u003e\n",
+  "createdAt": "2022-05-15 22:00:45.661 +0000 UTC",
+  "lastMod": "2022-05-16 12:21:58 +0000 +0000",
+  "permalink": "http://localhost:1313/issues/2022-05-15-mantenimiento-tilde-chat/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": true,
+  "resolvedAt": "2022-05-16T12:15:52.255Z",
+  "affected": ["IRC"],
+  "filename": "2022-05-15-mantenimiento-tilde-chat.md"
+}

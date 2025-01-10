@@ -1,0 +1,55 @@
+{
+  "is": "system",
+  "title": "Jabber",
+  "permalink": "http://localhost:1313/affected/jabber/",
+  "status": "disrupted", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "intermitencia con Prosody (XMPP/Jabber)",
+        "createdAt": "2025-05-02 04:41:00 +0000 UTC",
+        "lastMod": "2025-01-09 12:55:12 -0300 -03",
+        "permalink": "http://localhost:1313/issues/2025-01-09-intermitencia-prosody-jabber/",
+        "severity": "disrupted",
+        "resolved": false,
+        "informational": false,
+        "resolvedAt": "<no value>",
+        "affected": ["Jabber"],
+        "filename": "2025-01-09-intermitencia-prosody-jabber.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Problemas con Prosody (XMPP)",
+        "createdAt": "2022-05-15 04:41:00 +0000 UTC",
+        "lastMod": "2022-06-01 23:41:35 +0000 +0000",
+        "permalink": "http://localhost:1313/issues/2022-05-15-problemas-con-prosody-xmpp/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": true,
+        "resolvedAt": "2022-05-16T23:10:55.598Z",
+        "affected": ["Jabber"],
+        "filename": "2022-05-15-problemas-con-prosody-xmpp.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Actualización Servidor Principal a OpenBSD 7.1",
+        "createdAt": "2022-05-14 04:00:14.784 +0000 UTC",
+        "lastMod": "2022-05-14 04:00:14.784 +0000 UTC",
+        "permalink": "http://localhost:1313/issues/2022-05-07-actualizaci%C3%B3n-servidor-principal-a-openbsd-7-1/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": true,
+        "resolvedAt": "2022-05-14T05:00:14.820Z",
+        "affected": ["SSH", "Web", "Wiki", "BBJ", "Gemini", "Gophernicus", "Radio", "Mumble", "Git", "Jabber"],
+        "filename": "2022-05-07-actualización-servidor-principal-a-openbsd-7-1.md"
+      }
+    
+  ]
+}
+
+
+
+
+

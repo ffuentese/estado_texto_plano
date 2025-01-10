@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Actualización Servidor Principal a OpenBSD 7.1",
+  "body": "\u003cp\u003eVamos a actualizar el servidor a OpenBSD 7.1 por lo que todos los servicios del servidor principal van a estar abajo quedando solo esta web y los servicios de Santiago arriba hasta que terminemos.\u003c/p\u003e\n\u003cp\u003eMonitoreo: Estamos revisando si los servicios estan funcionando como corresponde.\u003c/p\u003e\n",
+  "createdAt": "2022-05-14 04:00:14.784 +0000 UTC",
+  "lastMod": "2022-05-14 04:00:14.784 +0000 UTC",
+  "permalink": "http://localhost:1313/issues/2022-05-07-actualizaci%C3%B3n-servidor-principal-a-openbsd-7-1/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": true,
+  "resolvedAt": "2022-05-14T05:00:14.820Z",
+  "affected": ["SSH", "Web", "Wiki", "BBJ", "Gemini", "Gophernicus", "Radio", "Mumble", "Git", "Jabber"],
+  "filename": "2022-05-07-actualización-servidor-principal-a-openbsd-7-1.md"
+}
