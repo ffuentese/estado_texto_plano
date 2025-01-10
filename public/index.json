@@ -5,7 +5,7 @@
   "title": "Estado operacional de Texto-Plano",
   "languageCodeHTML": "es",
   "languageCode": "es",
-  "baseURL": "http://localhost:1313/", 
+  "baseURL": "https://estado.texto-plano.xyz/", 
   "description": "Monitoreamos continuamente el estado de los servicios del tilde y si hubiera cualquier problema se publicará una nota aquí.",
   "summaryStatus": "disrupted", 
   "categories": [
@@ -24,8 +24,8 @@
         "is": "issue",
         "title": "Actualización de OpenBSD a 7.5",
         "createdAt": "2025-05-10 20:41:00 +0000 UTC",
-        "lastMod": "2025-05-10 20:41:00 +0000 UTC",
-        "permalink": "http://localhost:1313/issues/2025-01-10-actualizacion-openbsd-7.5/",
+        "lastMod": "2025-01-10 09:42:52 -0300 -03",
+        "permalink": "https://estado.texto-plano.xyz/issues/2025-01-10-actualizacion-openbsd-7.5/",
         "affected": ["servidor principal"],
         "filename": "2025-01-10-actualizacion-openbsd-7.5.md"
       }
@@ -119,7 +119,7 @@
               "title": "intermitencia con Prosody (XMPP/Jabber)",
               "createdAt": "2025-05-02 04:41:00 +0000 UTC",
               "lastMod": "2025-01-09 12:55:12 -0300 -03",
-              "permalink": "http://localhost:1313/issues/2025-01-09-intermitencia-prosody-jabber/",
+              "permalink": "https://estado.texto-plano.xyz/issues/2025-01-09-intermitencia-prosody-jabber/",
               "severity": "disrupted",
               "resolved": false,
               "informational": false,
@@ -134,7 +134,7 @@
   
   
   "buildDate": "2025-01-10",
-  "buildTime": "09:39",
+  "buildTime": "10:27",
   "buildTimezone": "-03",
   "colorBrand": "#0a0c0f",
   "colorOk": "#008000",
@@ -142,6 +142,6 @@
   "colorDown": "#e60000",
   "colorNotice": "#24478f",
   "alwaysKeepBrandColor": "true",
-  "logo": "http://localhost:1313/profile.png",
+  "logo": "https://estado.texto-plano.xyz/profile.png",
   "googleAnalytics": "UA-00000000-1"
 }

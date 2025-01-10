@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <link rel="alternate" type="text/html" href="http://localhost:1313/"/>
+    <link rel="alternate" type="text/html" href="https://estado.texto-plano.xyz/"/>
     <title>Affected on Estado operacional de Texto-Plano</title>
-    <link>http://localhost:1313/affected/</link>
+    <link>https://estado.texto-plano.xyz/affected/</link>
     <description>Historial de incidentes</description>
     <generator>github.com/cstate</generator>
     <language>es</language>
@@ -13,14 +13,14 @@
     
     
     
-      <atom:link href="http://localhost:1313/affected/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="https://estado.texto-plano.xyz/affected/index.xml" rel="self" type="application/rss+xml" />
     
     
       <item>
         <title>Servidor Principal</title>
-        <link>http://localhost:1313/affected/servidor-principal/</link>
+        <link>https://estado.texto-plano.xyz/affected/servidor-principal/</link>
         <pubDate>Sat, 10 May 2025 20:41:00 +0000</pubDate>
-        <guid>http://localhost:1313/affected/servidor-principal/</guid>
+        <guid>https://estado.texto-plano.xyz/affected/servidor-principal/</guid>
         <category></category>
         <description></description>
         <content type="html"></content>
@@ -28,9 +28,9 @@
     
       <item>
         <title>Jabber</title>
-        <link>http://localhost:1313/affected/jabber/</link>
+        <link>https://estado.texto-plano.xyz/affected/jabber/</link>
         <pubDate>Fri, 02 May 2025 04:41:00 +0000</pubDate>
-        <guid>http://localhost:1313/affected/jabber/</guid>
+        <guid>https://estado.texto-plano.xyz/affected/jabber/</guid>
         <category></category>
         <description></description>
         <content type="html"></content>
@@ -38,9 +38,9 @@
     
       <item>
         <title>BBJ</title>
-        <link>http://localhost:1313/affected/bbj/</link>
+        <link>https://estado.texto-plano.xyz/affected/bbj/</link>
         <pubDate>Mon, 06 Jun 2022 14:30:40 +0000</pubDate>
-        <guid>http://localhost:1313/affected/bbj/</guid>
+        <guid>https://estado.texto-plano.xyz/affected/bbj/</guid>
         <category></category>
         <description></description>
         <content type="html"></content>
@@ -48,9 +48,9 @@
     
       <item>
         <title>Gemini</title>
-        <link>http://localhost:1313/affected/gemini/</link>
+        <link>https://estado.texto-plano.xyz/affected/gemini/</link>
         <pubDate>Mon, 06 Jun 2022 14:30:40 +0000</pubDate>
-        <guid>http://localhost:1313/affected/gemini/</guid>
+        <guid>https://estado.texto-plano.xyz/affected/gemini/</guid>
         <category></category>
         <description></description>
         <content type="html"></content>
@@ -58,9 +58,9 @@
     
       <item>
         <title>Gophernicus</title>
-        <link>http://localhost:1313/affected/gophernicus/</link>
+        <link>https://estado.texto-plano.xyz/affected/gophernicus/</link>
         <pubDate>Mon, 06 Jun 2022 14:30:40 +0000</pubDate>
-        <guid>http://localhost:1313/affected/gophernicus/</guid>
+        <guid>https://estado.texto-plano.xyz/affected/gophernicus/</guid>
         <category></category>
         <description></description>
         <content type="html"></content>
@@ -68,9 +68,9 @@
     
       <item>
         <title>SSH</title>
-        <link>http://localhost:1313/affected/ssh/</link>
+        <link>https://estado.texto-plano.xyz/affected/ssh/</link>
         <pubDate>Mon, 06 Jun 2022 14:30:40 +0000</pubDate>
-        <guid>http://localhost:1313/affected/ssh/</guid>
+        <guid>https://estado.texto-plano.xyz/affected/ssh/</guid>
         <category></category>
         <description></description>
         <content type="html"></content>
@@ -78,9 +78,9 @@
     
       <item>
         <title>Web</title>
-        <link>http://localhost:1313/affected/web/</link>
+        <link>https://estado.texto-plano.xyz/affected/web/</link>
         <pubDate>Mon, 06 Jun 2022 14:30:40 +0000</pubDate>
-        <guid>http://localhost:1313/affected/web/</guid>
+        <guid>https://estado.texto-plano.xyz/affected/web/</guid>
         <category></category>
         <description></description>
         <content type="html"></content>
@@ -88,9 +88,9 @@
     
       <item>
         <title>IRC</title>
-        <link>http://localhost:1313/affected/irc/</link>
+        <link>https://estado.texto-plano.xyz/affected/irc/</link>
         <pubDate>Sun, 15 May 2022 22:00:45 +0000</pubDate>
-        <guid>http://localhost:1313/affected/irc/</guid>
+        <guid>https://estado.texto-plano.xyz/affected/irc/</guid>
         <category></category>
         <description></description>
         <content type="html"></content>
@@ -98,9 +98,9 @@
     
       <item>
         <title>Git</title>
-        <link>http://localhost:1313/affected/git/</link>
+        <link>https://estado.texto-plano.xyz/affected/git/</link>
         <pubDate>Sat, 14 May 2022 04:00:14 +0000</pubDate>
-        <guid>http://localhost:1313/affected/git/</guid>
+        <guid>https://estado.texto-plano.xyz/affected/git/</guid>
         <category></category>
         <description></description>
         <content type="html"></content>
@@ -108,9 +108,9 @@
     
       <item>
         <title>Mumble</title>
-        <link>http://localhost:1313/affected/mumble/</link>
+        <link>https://estado.texto-plano.xyz/affected/mumble/</link>
         <pubDate>Sat, 14 May 2022 04:00:14 +0000</pubDate>
-        <guid>http://localhost:1313/affected/mumble/</guid>
+        <guid>https://estado.texto-plano.xyz/affected/mumble/</guid>
         <category></category>
         <description></description>
         <content type="html"></content>
@@ -118,9 +118,9 @@
     
       <item>
         <title>Radio</title>
-        <link>http://localhost:1313/affected/radio/</link>
+        <link>https://estado.texto-plano.xyz/affected/radio/</link>
         <pubDate>Sat, 14 May 2022 04:00:14 +0000</pubDate>
-        <guid>http://localhost:1313/affected/radio/</guid>
+        <guid>https://estado.texto-plano.xyz/affected/radio/</guid>
         <category></category>
         <description></description>
         <content type="html"></content>
@@ -128,9 +128,9 @@
     
       <item>
         <title>Wiki</title>
-        <link>http://localhost:1313/affected/wiki/</link>
+        <link>https://estado.texto-plano.xyz/affected/wiki/</link>
         <pubDate>Sat, 14 May 2022 04:00:14 +0000</pubDate>
-        <guid>http://localhost:1313/affected/wiki/</guid>
+        <guid>https://estado.texto-plano.xyz/affected/wiki/</guid>
         <category></category>
         <description></description>
         <content type="html"></content>

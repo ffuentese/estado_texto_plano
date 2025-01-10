@@ -1,7 +1,7 @@
 {
   "is": "system",
   "title": "IRC",
-  "permalink": "http://localhost:1313/affected/irc/",
+  "permalink": "https://estado.texto-plano.xyz/affected/irc/",
   "status": "ok", 
   "pages": [
       {
@@ -9,7 +9,7 @@
         "title": "Mantenimiento tilde.chat",
         "createdAt": "2022-05-15 22:00:45.661 +0000 UTC",
         "lastMod": "2022-05-16 12:21:58 +0000 +0000",
-        "permalink": "http://localhost:1313/issues/2022-05-15-mantenimiento-tilde-chat/",
+        "permalink": "https://estado.texto-plano.xyz/issues/2022-05-15-mantenimiento-tilde-chat/",
         "severity": "notice",
         "resolved": true,
         "informational": true,

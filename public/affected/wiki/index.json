@@ -1,7 +1,7 @@
 {
   "is": "system",
   "title": "Wiki",
-  "permalink": "http://localhost:1313/affected/wiki/",
+  "permalink": "https://estado.texto-plano.xyz/affected/wiki/",
   "status": "ok", 
   "pages": [
       {
@@ -9,7 +9,7 @@
         "title": "Actualización Servidor Principal a OpenBSD 7.1",
         "createdAt": "2022-05-14 04:00:14.784 +0000 UTC",
         "lastMod": "2022-05-14 04:00:14.784 +0000 UTC",
-        "permalink": "http://localhost:1313/issues/2022-05-07-actualizaci%C3%B3n-servidor-principal-a-openbsd-7-1/",
+        "permalink": "https://estado.texto-plano.xyz/issues/2022-05-07-actualizaci%C3%B3n-servidor-principal-a-openbsd-7-1/",
         "severity": "notice",
         "resolved": true,
         "informational": true,

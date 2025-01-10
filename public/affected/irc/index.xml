@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <link rel="alternate" type="text/html" href="http://localhost:1313/"/>
+    <link rel="alternate" type="text/html" href="https://estado.texto-plano.xyz/"/>
     <title>IRC on Estado operacional de Texto-Plano</title>
-    <link>http://localhost:1313/affected/irc/</link>
+    <link>https://estado.texto-plano.xyz/affected/irc/</link>
     <description>Historial de incidentes</description>
     <generator>github.com/cstate</generator>
     <language>es</language>
@@ -13,14 +13,14 @@
     
     
     
-      <atom:link href="http://localhost:1313/affected/irc/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="https://estado.texto-plano.xyz/affected/irc/index.xml" rel="self" type="application/rss+xml" />
     
     
       <item>
         <title>[Resuelto] Mantenimiento tilde.chat</title>
-        <link>http://localhost:1313/issues/2022-05-15-mantenimiento-tilde-chat/</link>
+        <link>https://estado.texto-plano.xyz/issues/2022-05-15-mantenimiento-tilde-chat/</link>
         <pubDate>Sun, 15 May 2022 22:00:45 +0000</pubDate>
-        <guid>http://localhost:1313/issues/2022-05-15-mantenimiento-tilde-chat/</guid>
+        <guid>https://estado.texto-plano.xyz/issues/2022-05-15-mantenimiento-tilde-chat/</guid>
         <category>2022-05-16T12:15:52.255Z</category>
         <description>&lt;p&gt;tilde.chat nos solicita actualizar inspircd, asi que esto se hara en la tarde de hoy y se monitoreara en lo que que queda del dia.&lt;/p&gt;</description>
         <content type="html">&lt;p&gt;tilde.chat nos solicita actualizar inspircd, asi que esto se hara en la tarde de hoy y se monitoreara en lo que que queda del dia.&lt;/p&gt;

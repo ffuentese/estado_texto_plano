@@ -4,7 +4,7 @@
   "body": "\u003cp\u003e\u003cem\u003eInvestigando\u003c/em\u003e Estamos investigando un problema que puede afectar a usuarios de Jabber/XMPP conectandose a la conferencia de Texto-Plano (\u003ca href=\"mailto:general@conference.texto-plano.xyz\"\u003egeneral@conference.texto-plano.xyz\u003c/a\u003e) lo cual se puede deber a cambios en una version de prosody.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eResuelto\u003c/em\u003e Ver detalles al final de este reporte de errores de prosody.im \u003ca href=\"https://issues.prosody.im/1737\"\u003ehttps://issues.prosody.im/1737\u003c/a\u003e (la ultima pregunta no era necesaria, con la última instruccion ya se arreglaba el problema)\u003c/p\u003e\n",
   "createdAt": "2022-05-15 04:41:00 +0000 UTC",
   "lastMod": "2022-06-01 23:41:35 +0000 +0000",
-  "permalink": "http://localhost:1313/issues/2022-05-15-problemas-con-prosody-xmpp/",
+  "permalink": "https://estado.texto-plano.xyz/issues/2022-05-15-problemas-con-prosody-xmpp/",
   "severity": "disrupted",
   "resolved": true,
   "informational": true,

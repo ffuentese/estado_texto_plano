@@ -4,7 +4,7 @@
   "body": "\u003cp\u003e\u003cem\u003eInvestigando\u003c/em\u003e Estamos investigando un problema que puede afectar a usuarios de Jabber/XMPP conectandose a la conferencia de Texto-Plano (\u003ca href=\"mailto:general@conference.texto-plano.xyz\"\u003egeneral@conference.texto-plano.xyz\u003c/a\u003e) lo cual se puede deber a cambios en una version de prosody.\u003c/p\u003e\n",
   "createdAt": "2025-05-02 04:41:00 +0000 UTC",
   "lastMod": "2025-01-09 12:55:12 -0300 -03",
-  "permalink": "http://localhost:1313/issues/2025-01-09-intermitencia-prosody-jabber/",
+  "permalink": "https://estado.texto-plano.xyz/issues/2025-01-09-intermitencia-prosody-jabber/",
   "severity": "disrupted",
   "resolved": false,
   "informational": false,
