@@ -1,0 +1,64 @@
+---
+title: Alertas
+draft: false
+---
+Si detectas que algún servicio de Texto-Plano no esta funcionando, avisanos:
+
+<form id="myform" name="contact" method="POST" action="/thankyou.html">
+  <p>
+    <label>Tu usuario: <input type="text" name="user" v-model="user" /></label>
+  </p>
+  <p>
+    <label>¿Qué servicios no están funcionando?:</p>
+<p>
+ <input type="checkbox" id="jabber" name="jabber" value="prosody" v-model="checkedNames">
+<label for="jabber"> Servidor Jabber</label><br>
+ <input type="checkbox" id="web" name="web" value="nginx" v-model="checkedNames">
+<label for="web"> Servidor Web </label><br>
+ <input type="checkbox" id="wiki" name="wiki" value="wiki" v-model="checkedNames">
+<label for="wiki"> Wiki </label><br>
+ <input type="checkbox" id="gemini" name="gemini" value="gemini" v-model="checkedNames">
+<label for="gemini"> Servidor Gemini </label><br>
+ <input type="checkbox" id="gopher" name="gopher" value="gophernicus" v-model="checkedNames">
+<label for="gopher"> Servidor Gopher </label><br>
+ <input type="checkbox" id="bbj" name="bbj" value="bbj" v-model="checkedNames">
+<label for="bbj"> BBJ</label><br>
+ <input type="checkbox" id="radio" name="radio" value="icecast" v-model="checkedNames">
+<label for="bbj"> Radio </label><br>
+ <input type="checkbox" id="mumble" name="mumble" value="murmurd" v-model="checkedNames">
+<label for="mumble"> Servidor Mumble (conversación por audio)</label><br>
+<br>
+  </p>
+<p> No llenar <input type="text" id="rev" name="rev"  v-model="rev">
+  <p>
+    <button type="submit"  @click.prevent="sendForm">Enviar</button>
+  </p>
+</form>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+const app = new Vue({
+    el:'#myForm',
+    data:{
+        user:'',
+        message:''
+    },
+    methods:{
+        async sendForm() {
+            let flag  =      
+            let formData = new FormData();
+            formData.append('user', this.user);
+            formData.append('message', this.checkedNames);
+             
+            let resp = await fetch('https://ntfy.sh/alertas_tp', {
+                method:'POST',
+headers: {
+        'Title': 'Incidencia en texto-plano.xyz'
+    },
+                body:formData
+            });
+            // assume ok, although double check
+            alert('Enviado!');
+        }
+    }
+});
+</script>
