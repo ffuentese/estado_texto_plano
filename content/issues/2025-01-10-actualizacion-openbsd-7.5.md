@@ -1,10 +1,10 @@
 ---
 section: issue
 title: Actualización de OpenBSD a 7.5
-date: 2025-01-05T23:41:00.000Z
+date: 2025-01-10T10:41:00.000Z
 resolved: true
 draft: false
-informational: false
+informational: true
 pin: false 
 resolvedWhen: 2025-01-10T16:50:42.474Z
 affected:
