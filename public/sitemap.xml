@@ -3,25 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://estado.texto-plano.xyz/affected/</loc>
-    <lastmod>2025-01-10T16:51:03+00:00</lastmod>
+    <lastmod>2025-01-11T14:29:59-03:00</lastmod>
   </url><url>
     <loc>https://estado.texto-plano.xyz/</loc>
-    <lastmod>2025-01-10T16:51:03+00:00</lastmod>
+    <lastmod>2025-01-11T14:29:59-03:00</lastmod>
   </url><url>
     <loc>https://estado.texto-plano.xyz/issues/2025-01-09-intermitencia-prosody-jabber/</loc>
     <lastmod>2025-01-09T12:55:12-03:00</lastmod>
   </url><url>
     <loc>https://estado.texto-plano.xyz/issues/</loc>
-    <lastmod>2025-01-10T16:51:03+00:00</lastmod>
+    <lastmod>2025-01-11T14:29:59-03:00</lastmod>
   </url><url>
     <loc>https://estado.texto-plano.xyz/affected/jabber/</loc>
     <lastmod>2025-01-09T12:55:12-03:00</lastmod>
   </url><url>
     <loc>https://estado.texto-plano.xyz/issues/2025-01-10-actualizacion-openbsd-7.5/</loc>
-    <lastmod>2025-01-10T16:51:03+00:00</lastmod>
+    <lastmod>2025-01-11T14:29:59-03:00</lastmod>
   </url><url>
     <loc>https://estado.texto-plano.xyz/affected/servidor-principal/</loc>
-    <lastmod>2025-01-10T16:51:03+00:00</lastmod>
+    <lastmod>2025-01-11T14:29:59-03:00</lastmod>
   </url><url>
     <loc>https://estado.texto-plano.xyz/issues/2022-07-14-reinicio-de-servidor/</loc>
     <lastmod>2022-07-14T01:04:14+00:00</lastmod>
@@ -69,11 +69,12 @@
     <lastmod>2022-05-14T04:00:14+00:00</lastmod>
   </url><url>
     <loc>https://estado.texto-plano.xyz/pages/alertas/</loc>
+    <lastmod>2025-01-10T18:30:12-03:00</lastmod>
   </url><url>
     <loc>https://estado.texto-plano.xyz/pages/example-page/</loc>
     <lastmod>2019-04-08T21:48:39+03:00</lastmod>
   </url><url>
     <loc>https://estado.texto-plano.xyz/pages/</loc>
-    <lastmod>2019-04-08T21:48:39+03:00</lastmod>
+    <lastmod>2025-01-10T18:30:12-03:00</lastmod>
   </url>
 </urlset>

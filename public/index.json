@@ -19,17 +19,7 @@
   ],
   
   
-  "pinnedIssues": [
-      {
-        "is": "issue",
-        "title": "Actualización de OpenBSD a 7.5",
-        "createdAt": "2025-01-05 23:41:00 +0000 UTC",
-        "lastMod": "2025-01-10 16:51:03 +0000 +0000",
-        "permalink": "https://estado.texto-plano.xyz/issues/2025-01-10-actualizacion-openbsd-7.5/",
-        "affected": ["servidor principal"],
-        "filename": "2025-01-10-actualizacion-openbsd-7.5.md"
-      }
-  ],
+  "pinnedIssues": [],
   "systems": [
     
       {
@@ -133,8 +123,8 @@
   ],
   
   
-  "buildDate": "2025-01-10",
-  "buildTime": "18:29",
+  "buildDate": "2025-01-11",
+  "buildTime": "14:31",
   "buildTimezone": "-03",
   "colorBrand": "#0a0c0f",
   "colorOk": "#008000",

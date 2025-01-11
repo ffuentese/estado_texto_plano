@@ -2,17 +2,17 @@
   "is": "system",
   "title": "Servidor Principal",
   "permalink": "https://estado.texto-plano.xyz/affected/servidor-principal/",
-  "status": "notice", 
+  "status": "ok", 
   "pages": [
       {
         "is": "issue",
         "title": "Actualización de OpenBSD a 7.5",
         "createdAt": "2025-01-05 23:41:00 +0000 UTC",
-        "lastMod": "2025-01-10 16:51:03 +0000 +0000",
+        "lastMod": "2025-01-11 14:29:59 -0300 -03",
         "permalink": "https://estado.texto-plano.xyz/issues/2025-01-10-actualizacion-openbsd-7.5/",
         "severity": "notice",
-        "resolved": false,
-        "informational": true,
+        "resolved": true,
+        "informational": false,
         "resolvedAt": "2025-01-10T16:50:42.474Z",
         "affected": ["servidor principal"],
         "filename": "2025-01-10-actualizacion-openbsd-7.5.md"
