@@ -51,8 +51,6 @@ params:
       description: La wiki de Texto-Plano
       category: Servidor principal
       link: https://wiki.texto-plano.xyz/
-    - name: Gemini
-      category: Servidor principal
     - name: Gophernicus
       category: Servidor principal
     - name: Radio
@@ -63,6 +61,11 @@ params:
     - name: Jabber
       category: Servidor principal
       description: Protocolo XMPP para chatear en conferencia y uno a uno.
+    - name: Gemini
+      category: Servidor principal
+    - name: SMTP
+      category: Servidor principal
+      description: "Opensmtpd "
   dateFormat: January 2, 2006 at 3:04 PM UTC
   brand: "#0a0c0f"
   enableLastMod: true
