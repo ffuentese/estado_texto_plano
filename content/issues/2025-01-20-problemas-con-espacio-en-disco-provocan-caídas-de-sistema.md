@@ -6,7 +6,7 @@ resolved: true
 draft: false
 informational: false
 pin: false
-resolvedWhen: 2025-01-20T13:01:30.292Z
+resolvedWhen: 2025-01-20T14:30:00.000Z
 affected:
   - servidor-principal
 severity: disrupted
