@@ -1,7 +1,7 @@
 ---
 section: issue
 title: intermitencia con Prosody (XMPP/Jabber)
-date: 2025-05-02T04:41:00.000Z
+date: 2024-12-05T03:41:00.000Z
 resolved: true
 draft: false
 informational: false
