@@ -5,8 +5,8 @@ date: 2025-03-07T19:00:43.593Z
 resolved: true
 draft: false
 informational: true
-pin: true
-resolvedWhen: 2025-03-07T21:20:37.506Z
+pin: false
+resolvedWhen: 2025-03-07T21:21:41.340Z
 affected:
   - Servidor-principal
 severity: notice
