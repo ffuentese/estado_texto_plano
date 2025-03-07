@@ -2,11 +2,11 @@
 section: issue
 title: Actualización OpenBSD 7.5 -> 7.6
 date: 2025-03-07T19:00:43.593Z
-resolved: false
+resolved: true
 draft: false
 informational: true
 pin: true
-resolvedWhen: 2025-03-06T14:10:43.609Z
+resolvedWhen: 2025-03-07T21:20:37.506Z
 affected:
   - Servidor-principal
 severity: notice
