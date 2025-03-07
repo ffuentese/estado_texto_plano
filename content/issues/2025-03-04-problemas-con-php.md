@@ -2,11 +2,11 @@
 section: issue
 title: Problemas con php
 date: 2025-03-04T19:20:28.364Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
-resolvedWhen: 2025-03-04T19:18:00.000Z
+resolvedWhen: 2025-03-07T21:20:13.651Z
 affected:
   - servidor-principal
   - web
