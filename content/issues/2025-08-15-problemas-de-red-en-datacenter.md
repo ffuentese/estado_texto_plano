@@ -1,7 +1,7 @@
 ---
 section: issue
 title: Problemas de red en datacenter
-date: 2025-08-15T16:59:16.166Z
+date: 2025-08-15T14:23:00.000Z
 resolved: false
 draft: false
 informational: false
