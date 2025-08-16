@@ -2,11 +2,11 @@
 section: issue
 title: Problemas de red en datacenter
 date: 2025-08-15T14:23:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
-resolvedWhen: 2025-08-15T16:59:16.186Z
+resolvedWhen: 2025-08-16T03:08:00.000Z
 affected:
   - servidor-principal
 severity: disrupted
