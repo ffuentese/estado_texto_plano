@@ -5,8 +5,8 @@ date: 2025-09-06T00:00:22.323Z
 resolved: false
 draft: false
 informational: true
-pin: true
-resolvedWhen: ""
+pin: false
+resolvedWhen: 2025-09-06T02:00:00.000Z
 affected:
   - servidor-principal
 severity: notice
