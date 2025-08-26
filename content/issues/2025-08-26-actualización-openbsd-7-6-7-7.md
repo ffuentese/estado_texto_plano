@@ -6,9 +6,13 @@ resolved: false
 draft: false
 informational: true
 pin: false
-resolvedWhen: 2025-09-06T02:00:00.000Z
+resolvedWhen: 
 affected:
   - servidor-principal
 severity: notice
 ---
-*Investigating* - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+Vamos a actualizar OpenBSD a la versión 7.7 el 6 de septiembre a las 00:00 UTC. 
+
+Por favor, no utilices el servidor durante este horario. 
+
+https://www.openbsd.org/77.html
