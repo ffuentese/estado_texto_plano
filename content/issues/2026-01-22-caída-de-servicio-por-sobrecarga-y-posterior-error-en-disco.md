@@ -11,4 +11,5 @@ affected:
   - servidor-principal
 severity: down
 ---
-*Investigating* - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+El servidor de texto-plano.xyz se cayó el servidor por sobrecarga. En el reinicio posterior, el sistema detectó un error en el disco, por lo que tenemos que evaluar la situación para reponer el servicio. esperamos a medianoche del viernes 23 (hora UTC)
+
