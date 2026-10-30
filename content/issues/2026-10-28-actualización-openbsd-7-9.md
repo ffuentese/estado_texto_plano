@@ -13,3 +13,4 @@ severity: notice
 ---
 Proceso de actualizacion: Pasaremos de OpenBSD 7.8 a 7.9 actualizando sistema operativo, paquetes y parches, revisando si servicios se mantienen operativos.
 
+Termina proceso sin novedad. Texto-plano.xyz operativo otra vez. 
