@@ -15,7 +15,7 @@ Un usuario de España reporto no poder acceder al sistema el dia domingo 22 de n
 
 Nota importante: Texto-plano.xyz no fomenta la pirateria, no utilizamos tampoco Cloudflare como proveedor y nuestra ip es fija.
 
-Sugerimos de sospechar de algun bloqueo probar primero con la IP y posteriormente con yggdrasil (requiere contar con yggdrasil instalado y conectado a un par)
+Sugerimos de sospechar de algun bloqueo probar primero con la IP y posteriormente con yggdrasil (requiere contar con yggdrasil instalado y conectado a un par). Nuestra IPv6 actual es [202:fa00:9a69:10a7:895e:a7a7:2ec1:34b2]. 
 
 Sospecho aunque no puedo confirmar, que Vultr como proveedor pudo haber sido bloqueado por algun otro cliente emitiendo partidos de forma ilegal, pero no hay forma de saberlo. 
 
